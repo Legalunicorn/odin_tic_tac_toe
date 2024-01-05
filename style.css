@@ -1,0 +1,86 @@
+
+h1{
+    font-size: 80px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:white;
+}
+button:hover{
+    opacity: 50%;
+}
+
+.vsc-initialized{
+    padding: 0px;
+    margin: 0px;
+}
+.top{
+    background-color: #313879;
+    margin: 0vh 0vh 5vh 0vh;
+    height: 15vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ttt{
+    text-align: center;
+    color: #fff;
+    font-size: 80px;
+    /* height: auto; */
+    
+}
+
+
+.board{
+    max-width: 500px;
+    display:grid;
+    grid-template-rows: repeat(3,150px);
+    grid-template-columns: repeat(3,150px);
+    gap: 10px;
+    justify-content: center;
+    margin:auto;
+}
+
+.playable_box{
+    border-radius: 25px;
+    background-color: lightgray;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.playable_box:hover{
+    background-color: #85807c;
+    transform: scale(1.05);
+
+}
+
+.controls {
+    margin: 50px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.controls button{
+    font-size: 50px;
+    border: 0;
+    padding-bottom: 10px;
+    border-radius: 25px;
+    background-color: #313879;
+    color:whitesmoke;
+    width:100px;
+}
+
+.move_svg{
+    width:70%;
+    height: 70%;
+}
+
+.results{
+    display:flex;
+    justify-content: center;    
+    align-items: center;
+    background-color: #313879;
+    height: 200px;
+}
+
